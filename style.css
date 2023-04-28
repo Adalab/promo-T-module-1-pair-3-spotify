@@ -1,0 +1,18 @@
+.barra-de-navegacion {
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 100px;
+}
+
+.menu {
+  height: 100px;
+}
+
+.section1{
+  border: solid 3px red;
+  background: blue
+}
