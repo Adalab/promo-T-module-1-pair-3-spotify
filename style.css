@@ -29,4 +29,5 @@ h1 {
   color: var(--color-fuente);
   font-size: 30px;
   font-weight: bold;
+  font-family: 'Roboto', sans-serif;
 }
