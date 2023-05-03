@@ -16,8 +16,8 @@
 }
 
 .section1{
-  border: solid 3px rgb(67, 100, 160);
-  background-color: rgb(67, 100, 160);
+  border: solid 3px red;
+  background-color: #529cf1;
   height: 300px;
   width: 100%;
   display: flex;
