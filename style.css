@@ -1,3 +1,6 @@
+:root { 
+  --color-fuente:white;
+}
 .barra-de-navegacion {
   display: flex;
   background-color: black;
@@ -13,6 +16,17 @@
 }
 
 .section1{
-  border: solid 3px red;
-  background: blue
+  border: solid 3px rgb(67, 100, 160);
+  background-color: rgb(67, 100, 160);
+  height: 300px;
+  width: 100%;
+  display: flex;
+}
+ h3, .terminos {
+  color: var(--color-fuente);
+}
+h1 {
+  color: var(--color-fuente);
+  font-size: 30px;
+  font-weight: bold;
 }
