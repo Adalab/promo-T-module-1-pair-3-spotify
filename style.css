@@ -8,15 +8,15 @@
 }
 
 .logo {
-  height: 100px;
+  height: 30px;
+  padding: 10px;
 }
 
 .menu {
-  height: 100px;
+  height: 30px;
 }
 
 .section1{
-  border: solid 3px red;
   background-color: #529cf1;
   height: 300px;
   width: 100%;
