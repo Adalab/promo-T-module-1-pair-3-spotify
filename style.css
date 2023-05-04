@@ -1,5 +1,7 @@
 :root { 
   --color-fuente:white;
+  --font-family: 'Roboto',
+    sans-serif;
 }
 .barra-de-navegacion {
   display: flex;
@@ -14,20 +16,33 @@
 
 .menu {
   height: 30px;
+  padding: 10px;
 }
 
 .section1{
   background-color: #529cf1;
-  height: 300px;
+  height: 50vh;
   width: 100%;
   display: flex;
+  align-items: center;
 }
  h3, .terminos {
   color: var(--color-fuente);
+  margin: 10px;
+  font-family: var(--font-family);
+
 }
 h1 {
   color: var(--color-fuente);
   font-size: 30px;
   font-weight: bold;
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--font-family);
+  margin: 10px; 
+}
+span {
+  display: block; 
+}
+h3, h2 {
+  font-weight: bold;
+  font-family: var(--font-family);
 }
