@@ -22,88 +22,16 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./reset.css" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
   </head>
 
   <body>
-    <header>
-      <nav class="barra-de-navegacion">
-        <img
-          class="logo"
-          src="./images/logo.png"
-          alt="logo Spotify"
-        />
-        <img
-          class="menu"
-          src="./images/menu-icon.png"
-          alt="menú"
-        />
-      </nav>
-    </header>
+    <header></header>
+    <include src="./partials/header.html"></include>
     <main>
-      <section class="section1">
-        <article class="articlesection1">
-          <h1>
-            Prueba Premium
-            <p class="terminos">gratis 3 meses</p>
-          </h1>
-          <h3>
-            Escucha millones de canciones sin
-            <p class="terminos">
-              anuncios, a la carta y sin conexión
-            </p>
-          </h3>
-          <button class="button">ver planes</button>
-          <p class="terminos">
-            Rigen términos y condiciones. Los tres meses
-            gratis no están disponibles para usuarios que ya
-            hayan probado Premium.
-          </p>
-        </article>
-      </section>
-      <section>
-        <h2>¿Por qué pasarte a Premium?</h2>
-        <article>
-          <img
-            src="./images/benefit-1.png"
-            alt="descarga musica"
-          />
-          <p>Descarga musica. Llevala siempre contigo</p>
-        </article>
-        <article>
-          <img
-            src="./images/benefit-2.png"
-            alt="sin anuncios"
-          />
-          <p>
-            Sin anuncios. Disfruta de música sin
-            interrupciones.
-          </p>
-        </article>
-        <article>
-          <img
-            src="./images/benefit-3.png"
-            alt="escucha lo que quieras"
-          />
-          <p>
-            Escucha lo que quieras. Incluso en el móvil.
-          </p>
-        </article>
-        <article>
-          <img
-            src="./images/benefit-4.png"
-            alt="siguiente"
-          />
-          <p>
-            Salta todas las canciones que quieras.
-            Simplemente dale a siguiente.
-          </p>
-        </article>
-      </section>
+      <include src="./partials/section1.html"></include>
+      <include src="./partials/section2.html"></include>
     </main>
-    <footer>
-      <img src="./images/es.svg" alt="bandera" />
-      Legal
-    </footer>
+    <include src="./partials/footer.html"></include>
   </body>
 </html>
