@@ -1,7 +1,8 @@
 :root { 
   --color-fuente:white;
-  --font-family: 'Roboto',
-    sans-serif;
+  --font-family: 'Roboto', sans-serif;
+  --color-azul: #529cf1;
+  --color-verde: #26b758;
 }
 .barra-de-navegacion {
   display: flex;
@@ -20,13 +21,20 @@
 }
 
 .section1{
-  background-color: #529cf1;
+  background-color: var(--color-azul);
   height: 50vh;
   width: 100%;
   display: flex;
   align-items: center;
+  text-align: start;
+
 }
- h3, .terminos {
+
+.articlesection1 {
+  margin 0, 20px;
+
+}
+h3, .terminos {
   color: var(--color-fuente);
   margin: 10px;
   font-family: var(--font-family);
@@ -45,4 +53,16 @@ span {
 h3, h2 {
   font-weight: bold;
   font-family: var(--font-family);
+}
+
+.button {
+  text-transform: uppercase;
+  color: var(--color-fuente);
+  font-weight: bold;
+  letter-spacing: 1.5px;;
+  background-color: var(--color-verde);
+  width: 80vw;
+  height: 35px;
+  border-radius: 20px;
+  margin: 20px;
 }
