@@ -1,23 +1,13 @@
-/*@import 'core/variables';
+@import 'core/variables';
 @import 'core/reset';
-@import 'components/code';
+/*@import 'components/code';
 @import 'components/links';
 @import 'layout/page';
 @import 'layout/header';
 @import 'layout/footer';
 @import 'pages/index';
 */
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-:root {
-    --color-fuente: white;
-    --font-family: 'Roboto', sans-serif;
-    --color-azul: #529cf1;
-    --color-verde: #26b758;
-}
+
 .columna_central {
     margin-left: 15px;
     margin-right: 15px; 
