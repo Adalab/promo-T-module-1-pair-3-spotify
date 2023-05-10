@@ -1,6 +1,24 @@
 h2 {
     text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .article_section2 {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    row-gap: 5px;
+}
+
+.section2__img {
+    height: 60px;
+}
+p {
+    font-weight: bold;
+    padding-left: 15px;
+}
+.article__span {
+    font-weight: normal;
+    padding-top: 10px;
+    display: inline-block;
+
 }

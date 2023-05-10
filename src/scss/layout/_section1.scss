@@ -8,12 +8,15 @@
 
 }
 
-
-h3,
-.terminos {
+h3{
     color: $color-fuente;
     font-family: $font-family;
+
+}
+.terminos {
     font-size: smaller;
+    color: $color-fuente;
+    font-family: $font-family;
 
 }
 
